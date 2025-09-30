@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="monetag" content="35b9638d53a1e9f7e7111011e39060af">
+  <script src="https://fpyf8.com/88/tag.min.js" data-zone="174825" async data-cfasync="false"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MovieVibeHub — Watch Full Movie</title>
+  <style>
+    /* Background and page layout */
+    :root{--accent1:#ff4766;--accent2:#ff8a00;--card-bg:rgba(0,0,0,0.55)}
+    html,body{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif}
+    body{
+      /* Replace BACKGROUND_IMAGE_URL with your background image URL */
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://wallpapers.com/images/hd/black-and-white-movie-1920-x-1080-wallpaper-za87vw8b7smqpotq.jpg') center/cover no-repeat fixed;
+      color:#fff;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .wrap{max-width:1100px;margin:30px auto;padding:24px}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:8px;background:linear-gradient(135deg,var(--accent1),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:20px}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:#ddd}
+
+    /* Featured hero */
+    .hero{display:grid;grid-template-columns: 1fr 360px;gap:20px;margin-top:18px}
+    .hero-card{background:var(--card-bg);padding:18px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+    .hero-card img{width:100%;border-radius:10px;cursor:pointer}
+    .hero-desc{padding-top:10px}
+    .watch-btn{display:inline-block;padding:12px 20px;margin-top:12px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#fff;border-radius:10px;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(255,72,102,0.18)}
+
+    /* Grid of movies */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:22px}
+    .card{background:var(--card-bg);padding:12px;border-radius:10px;overflow:hidden;position:relative}
+    .poster{width:100%;border-radius:8px;display:block;cursor:pointer}
+    .card h3{margin:10px 0 4px;font-size:16px}
+    .meta{font-size:13px;color:#ddd}
+    .card .btn-small{display:inline-block;padding:8px 12px;margin-top:8px;background:rgba(255,255,255,0.06);color:#fff;border-radius:8px;text-decoration:none;font-weight:700}
+
+    /* small badge */
+    .badge{position:absolute;top:10px;left:10px;background:rgba(0,0,0,0.6);padding:6px 8px;border-radius:6px;font-size:12px}
+
+    /* footer */
+    footer{margin-top:28px;color:#cfcfcf;font-size:13px;text-align:center}
+
+    /* responsive tweaks */
+    @media (max-width:900px){.hero{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">MVH</div>
+        <div>
+          <h1>MovieVibeHub</h1>
+          <p class="lead">Exclusive previews • Click to watch the full version</p>
+        </div>
+      </div>
+      <div>
+        <!-- small explanation, optional -->
+        <div style="font-size:13px;color:#f5f5f5;opacity:0.9">Free • Fast • Limited Time</div>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-card">
+        <a href="https://otieu.com/4/9938122b" target="_blank" rel="noopener">
+          <!-- Replace HERO_IMAGE_URL with your uploaded hero poster/screenshot -->
+          <img src="https://m.media-amazon.com/images/M/MV5BNzVmMTVkNWUtOGRhNy00YWI4LWI3OTctNjIzMDE3NjdjNGE5XkEyXkFqcGc@._V1_.jpg" alt="Featured preview" />
+        </a>
+        <div class="hero-desc">
+          <h2 style="margin:6px 0 2px">Featured: Aamras - Ep2</h2>
+          <div style="color:#ccc;font-size:14px">Watch the full uncensored version by clicking below. Limited time offer.</div>
+          <a class="watch-btn" href="https://otieu.com/4/9938122" target="_blank" rel="noopener">▶ Watch Full Movie</a>
+
+          <div style="margin-top:12px;color:#ffd4a6;font-weight:700;">⏳ Offer ends in <span id="hero-timer">10m 00s</span></div>
+        </div>
+      </div>
+
+      <!-- Right column: featured small cards -->
+      <aside style="display:flex;flex-direction:column;gap:12px">
+        <div class="hero-card" style="padding:12px">
+          <strong>Now watching:</strong>
+          <div style="font-size:14px;margin-top:6px">12,437 users currently active</div>
+          <div style="margin-top:10px;font-size:13px;color:#ddd">Top quality playback available</div>
+        </div>
+
+        <div class="hero-card" style="padding:12px;text-align:left">
+          <strong>How it works</strong>
+          <ol style="color:#ddd;margin:8px 0 0;padding-left:18px;font-size:13px">
+            <li>Play the preview (30s)</li>
+            <li>Click "Watch Full Movie"</li>
+            <li>Complete brief action to view</li>
+          </ol>
+        </div>
+      </aside>
+    </section>
+
+    <!-- GRID OF MOVIES -->
+    <section class="grid" id="movies-grid">
+
+      <!-- Movie Card 1 -->
+      <article class="card">
+        <div class="badge">HD • 1h 58m</div>
+        <!-- Replace POSTER_1_URL and MONETAG_LINK_1 -->
+        <a href="MONETAG_LINK_1" target="_blank" rel="noopener">
+          <img class="poster" src="https://m.media-amazon.com/images/M/MV5BYjBkZWExMGItYmM1Ny00YzU1LWIxZDMtMTAzM2UxMDljOWNhXkEyXkFqcGc@._V1_QL75_UX388_.jpg" alt="Movie 1 preview" />
+        </a>
+        <h3>The Last Show (TV Mini Series 2021)</h3>
+        <div class="meta">Drama • Romance • 2021</div>
+        <a class="btn-small" href="https://www.justwatch.com/uk/tv-series/the-last-show" target="_blank" rel="noopener">▶ Watch Full Movie</a>
+      </article>
+
+      <!-- Movie Card 2 -->
+      <article class="card">
+        <div class="badge">HD • 2h 12m</div>
+        <!-- Replace POSTER_2_URL and MONETAG_LINK_2 -->
+        <a href="MONETAG_LINK_2" target="_blank" rel="noopener">
+          <img class="poster" src="https://i.ytimg.com/vi/W8SsKW8IJfE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD5vl2HFt8ESpCPiuUy1VYNATyzgQ" alt="Movie 2 preview" />
+        </a>
+        <h3>Tharki Buddha</h3>
+        <div class="meta">Drama • Romance • 2023</div>
+        <a class="btn-small" href="https://otieu.com/4/9954069" target="_blank" rel="noopener">▶ Watch Full Movie</a>
+      </article>
+
+      <!-- Movie Card 3 -->
+      <article class="card">
+        <div class="badge">SD • 1h 42m</div>
+        <!-- Replace POSTER_3_URL and MONETAG_LINK_3 -->
+        <a href="https://otieu.com/4/9954072" target="_blank" rel="noopener">
+          <img class="poster" src="https://s1.dmcdn.net/v/Xam_-1dRO1Q3G5fZH/x1080" alt="Movie 3 preview" />
+        </a>
+        <h3>https://otieu.com/4/9954072</h3>
+        <div class="meta">18+ • 2024</div>
+        <a class="btn-small" href="MONETAG_LINK_3" target="_blank" rel="noopener">▶ Watch Full Movie</a>
+      </article>
+
+      <!-- Add more cards: copy/paste a card and replace POSTER_x_URL and MONETAG_LINK_x -->
+
+    </section>
+
+    <footer>
+      <div style="max-width:780px;margin:16px auto;opacity:0.9">By clicking links you will be redirected to partner offers. This site uses previews and links for promotional purposes only.</div>
+    </footer>
+  </div>
+
+  <script>
+    // Simple hero countdown (10 minutes) - change initialTimeSeconds if you want
+    (function(){
+      let t = 10*60; // seconds
+      const el = document.getElementById('hero-timer');
+      function tick(){
+        if(!el) return;
+        const m = Math.floor(t/60); const s = t%60;
+        el.textContent = m + 'm ' + (s<10?('0'+s):s) + 's';
+        if(t>0){t--; setTimeout(tick,1000)} else {el.textContent='Offer Expired'}
+      }
+      tick();
+    })();
+
+    // Small helper: randomize viewer counts for visual urgency
+    (function(){
+      function randInt(a,b){return Math.floor(Math.random()*(b-a+1))+a}
+      const viewers = document.querySelectorAll('.hero-card .meta, .viewers');
+      // nothing else needed now — you can expand this to update elements with random viewers
+    })();
+  </script>
+</body>
+</html>
